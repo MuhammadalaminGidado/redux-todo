@@ -1,0 +1,38 @@
+.app {
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+.todo {
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+.todo p {
+  color: white;
+}
+input {
+  width: 50%;
+  padding: 0.7rem;
+  border: 0.5px solid grey;
+  border-radius: 0.5rem;
+  /* outline: none; */
+}
+ul li {
+  list-style-type: none;
+  color: black;
+  margin-left: 0;
+  margin-bottom: 0.7rem;
+  padding: 0.3rem;
+  border: 2px solid whitesmoke;
+  width: 30%;
+  position: relative;
+
+  span  input[type='checkbox']{
+    position: absolute;
+    right: 0;
+  }
+}
